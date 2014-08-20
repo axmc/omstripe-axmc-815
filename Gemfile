@@ -18,6 +18,11 @@ gem 'pg', group: :production
 # Add 12 factor for Heroku
 gem 'rails_12factor', group: :production
 # Use SCSS for stylesheets
+
+
+# Use Stripe for ecommerce payments
+
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
