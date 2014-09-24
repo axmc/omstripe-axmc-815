@@ -23,6 +23,11 @@ gem 'rails_12factor', group: :production
 # Use Stripe for ecommerce payments
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# Use Figaro gem for securely managing credentials
+
+gem 'figaro'
+
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -42,6 +47,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
