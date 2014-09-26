@@ -28,6 +28,10 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'figaro'
 
+# Add letter opener for handling emails in development.
+
+gem 'letter_opener', group: :development
+
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
