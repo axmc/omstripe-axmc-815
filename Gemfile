@@ -28,6 +28,13 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'figaro'
 
+# Add activeAdmin to generate an admin interface
+
+gem 'activeadmin',github: 'gregbell/active_admin'
+# Add devise to support login for admin interface
+
+gem 'devise'
+
 # Add letter opener for handling emails in development.
 
 gem 'letter_opener', group: :development
